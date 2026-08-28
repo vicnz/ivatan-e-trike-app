@@ -5,15 +5,19 @@
     "paths": {
       "@/*": [
         "./*"
+      ],
+      "@db-types": [
+        "./database.types.ts"
       ]
     }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    "**/*.d.ts",
+    "./global.d.ts",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "nativewind-env.d.ts"
+    "nativewind-env.d.ts",
+    "./database.types.ts"
   ]
 }
